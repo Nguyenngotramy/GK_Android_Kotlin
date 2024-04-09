@@ -28,6 +28,7 @@ class mh2SoNguyenTo : AppCompatActivity() {
     private fun clearSNT() {
         binding.btnClear.setOnClickListener {
             binding.editSNT.setText("")
+            binding.txtResult.setText("Hiển thị kết quả ở đây")
         }
     }
 

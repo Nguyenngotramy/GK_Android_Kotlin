@@ -27,6 +27,7 @@ class mh3Ptbn : AppCompatActivity() {
         binding.btnClear.setOnClickListener {
             binding.edtA.setText("")
             binding.edtB.setText("")
+            binding.txtResult.setText("Hiển thị kết quả ở đây")
         }
     }
 
